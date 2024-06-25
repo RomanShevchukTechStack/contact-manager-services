@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\contactmanager.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\contactmanager.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,6 +55,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactManager.Data",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
+              "RelativeDocumentMoniker": "ContactManager.Data\\ContactManager.Data.csproj",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
+              "RelativeToolTip": "ContactManager.Data\\ContactManager.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-25T08:58:54.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "ContactManager.Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\DataContext.cs",
+              "RelativeToolTip": "ContactManager.Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:58:27.006Z",
+              "EditorCaption": ""
             }
           ]
         }
