@@ -1,7 +1,9 @@
 ﻿using ContactManager.Data;
 using ContactManager.Data.Models;
 using FastEndpoints;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.Threading;
 using System.Threading.Tasks;
@@ -10,11 +12,10 @@ namespace ContactManager.Endpoints
 {
   public class CreateContactEndpoint : Endpoint<CreateContactRequest, Contact>
   {
-    private readonly DataContext _context;
-
+    private readonly Repository<Contact> _repository;
     public CreateContactEndpoint()
     {
-      _context = new DataContext();
+      _repository = new Repository<Contact>();
     }
 
     public override void Configure()
@@ -25,34 +26,12 @@ namespace ContactManager.Endpoints
 
     public override async Task HandleAsync(CreateContactRequest req, CancellationToken ct)
     {
-      if (!ModelState.IsValid)
-      {
-        await SendValidationErrorAsync(ct);
-        return;
-      }
 
-      var contact = new Contact
-      {
-        FirstName = req.FirstName,
-        LastName = req.LastName,
-        Email = req.Email
-      };
+      var contact = new Contact(req.FirstName, req.LastName, req.Email);
 
-      _context.AddContact(contact);
-      await SendCreatedAtAsync<GetContactEndpoint>(new { id = contact.Id }, contact, cancellation: ct);
+      var addRes = _repository.Add(contact);
+
+      await SendCreatedAtAsync<GetContactEndpoint>(new { id = contact.Id }, addRes.Value, cancellation: ct);
     }
-  }
-
-  public class CreateContactRequest
-  {
-    [Required]
-    public string FirstName { get; set; }
-
-    [Required]
-    public string LastName { get; set; }
-
-    [Required]
-    [EmailAddress]
-    public string Email { get; set; }
   }
 }

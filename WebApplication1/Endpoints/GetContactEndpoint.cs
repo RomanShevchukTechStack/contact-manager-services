@@ -6,11 +6,11 @@ namespace ContactManager.Endpoints
 {
   public class GetContactEndpoint : Endpoint<GetContactRequest, Contact>
   {
-    private readonly DataContext _context;
+    private readonly Repository<Contact> _repository;
 
     public GetContactEndpoint()
     {
-      _context = new DataContext();
+      _repository = new Repository<Contact>();
     }
 
     public override void Configure()
@@ -21,19 +21,15 @@ namespace ContactManager.Endpoints
 
     public override async Task HandleAsync(GetContactRequest req, CancellationToken ct)
     {
-      var contact = _context.GetContact(req.Id);
-      if (contact == null)
+      var contactRes = _repository.GetById(req.Id);
+      if (!contactRes.IsSuccess)
       {
         await SendNotFoundAsync(ct);
         return;
       }
 
-      await SendAsync(contact, StatusCodes.Status200OK, ct);
+      await SendAsync(contactRes.Value, StatusCodes.Status200OK, ct);
     }
   }
 
-  public class GetContactRequest
-  {
-    public int Id { get; set; }
-  }
 }

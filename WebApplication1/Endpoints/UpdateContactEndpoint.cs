@@ -1,4 +1,5 @@
 ﻿using ContactManager.Data;
+using ContactManager.Data.Models;
 using FastEndpoints;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,11 +11,11 @@ namespace ContactManager.Endpoints
 {
   public class UpdateContactEndpoint : Endpoint<UpdateContactRequest>
   {
-    private readonly DataContext _context;
+    private readonly Repository<Contact> _context;
 
     public UpdateContactEndpoint()
     {
-      _context = new DataContext();
+      _context = new Repository<Contact>();
     }
 
     public override void Configure()
@@ -26,35 +27,19 @@ namespace ContactManager.Endpoints
     public override async Task HandleAsync(UpdateContactRequest req, CancellationToken ct)
     {
 
-      var contact = _context.GetContact(req.Id);
-      if (contact == null)
+      var contactRes = _context.GetById(req.Id);
+      if (!contactRes.IsSuccess)
       {
         await SendNotFoundAsync(ct);
         return;
       }
 
-      contact.FirstName = req.FirstName;
-      contact.LastName = req.LastName;
-      contact.Email = req.Email;
+      var contact = contactRes.Value;
 
-      _context.UpdateContact(contact);
+      contact.Update(req.FirstName, req.LastName, req.Email);
+
+      _context.Update(contact);
       await SendNoContentAsync(ct);
     }
-  }
-
-  public class UpdateContactRequest
-  {
-    [FromRoute]
-    public int Id { get; set; }
-
-    [Required]
-    public string FirstName { get; set; }
-
-    [Required]
-    public string LastName { get; set; }
-
-    [Required]
-    [EmailAddress]
-    public string Email { get; set; }
   }
 }

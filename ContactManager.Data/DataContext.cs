@@ -1,63 +1,77 @@
-﻿using ContactManager.Data.Models;
+﻿using Ardalis.Result;
+using ContactManager.Data.Entities;
 using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 
-namespace ContactManager.Data
+public class Repository<T>  where T : BaseEntity
 {
-  public class DataContext
+  private readonly string filePath;
+  private List<T> items;
+
+  public Repository(string filePath = "repository.json")
   {
-    private const string FilePath = "contacts.json";
-    private List<Contact> contacts;
+    this.filePath = filePath;
 
-    public DataContext()
+    if (File.Exists(filePath))
     {
-      if (File.Exists(FilePath))
-      {
-        var json = File.ReadAllText(FilePath);
-        contacts = JsonConvert.DeserializeObject<List<Contact>>(json) ?? new List<Contact>();
-      }
-      else
-      {
-        contacts = new List<Contact>();
-      }
+      var json = File.ReadAllText(filePath);
+      items = JsonConvert.DeserializeObject<List<T>>(json) ?? new List<T>();
     }
-
-    public List<Contact> GetContacts() => contacts;
-
-    public Contact GetContact(int id) => contacts.FirstOrDefault(c => c.Id == id);
-
-    public void AddContact(Contact contact)
+    else
     {
-      contact.Id = contacts.Any() ? contacts.Max(c => c.Id) + 1 : 1;
-      contacts.Add(contact);
+      items = new List<T>();
+    }
+  }
+
+  public Result<List<T>> GetAll()
+  {
+    return Result<List<T>>.Success(items);
+  }
+
+  public Result<T> GetById(int id)
+  {
+    var item = items.FirstOrDefault(i => i.Id == id);
+    return item != null ? Result<T>.Success(item) : Result<T>.NotFound();
+  }
+
+  public Result<T> Add(T entity)
+  {
+    entity.Id = items.Any() ? items.Max(i => i.Id) + 1 : 1;
+    items.Add(entity);
+    SaveChanges();
+    return Result<T>.Success(entity);
+  }
+
+  public Result<T> Update(T entity)
+  {
+    var existing = GetById(entity.Id).Value;
+    if (existing != null)
+    {
+      var index = items.IndexOf(existing);
+      items[index] = entity;
       SaveChanges();
+      return Result<T>.Success(entity);
     }
+    return Result<T>.NotFound();
+  }
 
-    public void UpdateContact(Contact contact)
+  public Result Delete(int id)
+  {
+    var entity = GetById(id).Value;
+    if (entity != null)
     {
-      var existing = GetContact(contact.Id);
-      if (existing != null)
-      {
-        existing.FirstName = contact.FirstName;
-        existing.LastName = contact.LastName;
-        existing.Email = contact.Email;
-        SaveChanges();
-      }
+      items.Remove(entity);
+      SaveChanges();
+      return Result.Success();
     }
+    return Result.NotFound();
+  }
 
-    public void DeleteContact(int id)
-    {
-      var contact = GetContact(id);
-      if (contact != null)
-      {
-        contacts.Remove(contact);
-        SaveChanges();
-      }
-    }
-
-    private void SaveChanges()
-    {
-      var json = JsonConvert.SerializeObject(contacts, Formatting.Indented);
-      File.WriteAllText(FilePath, json);
-    }
+  private void SaveChanges()
+  {
+    var json = JsonConvert.SerializeObject(items, Formatting.Indented);
+    File.WriteAllText(filePath, json);
   }
 }

@@ -1,4 +1,5 @@
 ﻿using ContactManager.Data;
+using ContactManager.Data.Models;
 using FastEndpoints;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,11 +10,11 @@ namespace ContactManager.Endpoints
 {
   public class DeleteContactEndpoint : Endpoint<DeleteContactRequest>
   {
-    private readonly DataContext _context;
+    private readonly Repository<Contact> _repository;
 
     public DeleteContactEndpoint()
     {
-      _context = new DataContext();
+      _repository = new Repository<Contact>();
     }
 
     public override void Configure()
@@ -24,21 +25,15 @@ namespace ContactManager.Endpoints
 
     public override async Task HandleAsync(DeleteContactRequest req, CancellationToken ct)
     {
-      var contact = _context.GetContact(req.Id);
-      if (contact == null)
+      var contactRes = _repository.GetById(req.Id);
+      if (!contactRes.IsSuccess)
       {
         await SendNotFoundAsync(ct);
         return;
       }
 
-      _context.DeleteContact(req.Id);
+      _repository.Delete(req.Id);
       await SendNoContentAsync(ct);
     }
-  }
-
-  public class DeleteContactRequest
-  {
-    [FromRoute]
-    public int Id { get; set; }
   }
 }
