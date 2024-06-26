@@ -35,7 +35,6 @@ namespace ContactManager.Endpoints
       }
 
       var contact = contactRes.Value;
-
       contact.Update(req.FirstName, req.LastName, req.Email);
 
       _context.Update(contact);

@@ -1,6 +1,7 @@
 ﻿using Ardalis.Result;
 using ContactManager.Data.Entities;
 using ContactManager.Data.Models;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO;
@@ -147,10 +148,35 @@ public class Repository<T> where T : BaseEntity
     File.WriteAllText(filePath, json);
   }
 
-  public bool HasProperty<T>(string propertyName)
+  private bool HasProperty<T>(string propertyName)
   {
     Type type = typeof(T);
     PropertyInfo propertyInfo = type.GetProperty(propertyName, BindingFlags.Public | BindingFlags.Instance | BindingFlags.IgnoreCase);
     return propertyInfo != null;
   }
+
+  private string GetFilePathFromConfig(IConfiguration configuration)
+  {
+    var filePathOptions = configuration.GetSection("DataFilePaths").Get<DataFilePathsOptions>();
+
+    string typeName = typeof(T).Name;
+    PropertyInfo property = filePathOptions.GetType().GetProperty(typeName);
+
+    if (property != null)
+    {
+      string path = (string)property.GetValue(filePathOptions);
+      if (!string.IsNullOrEmpty(path))
+      {
+        return path;
+      }
+    }
+
+    return filePathOptions.Default;
+  }
+}
+
+public class DataFilePathsOptions
+{
+  public string Contact { get; set; }
+  public string Default { get; set; } = "default.json";
 }
