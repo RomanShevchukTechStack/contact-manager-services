@@ -3,60 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\updatecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\updatecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\getcontactsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\getcontactsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\models\\paginationoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\models\\paginationoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\models\\filteroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\models\\filteroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\models\\orderoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\models\\orderoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\contactmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\contactmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\contactmanager.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\contactmanager.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\models\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\models\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\updatecontactendpoint.requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\updatecontactendpoint.requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\createcontactendpoint.requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\createcontactendpoint.requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\createcontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\createcontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\updatecontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\updatecontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\getcontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\getcontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\models\\tablecontactsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\models\\tablecontactsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\getcontactendpoint.requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,20 +47,60 @@
       "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\contacts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\contacts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\getcontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\getcontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\updatecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\updatecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\createcontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\createcontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\createcontactendpoint.requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\createcontactendpoint.requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\deletecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\deletecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\contacts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\contacts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\getcontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\getcontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\updatecontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\updatecontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\contactmanager.data\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\updatecontactendpoint.requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\updatecontactendpoint.requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\createcontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\createcontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\getcontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\getcontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\deletecontactendpoint.requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\contactmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\contactmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\users\\thewa\\desktop\\contact-maneger-services\\webapplication1\\endpoints\\deletecontactendpoint.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,33 +170,97 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ErrorHandlingMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
-              "RelativeToolTip": "WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBgAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:27:08.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ContactManager.Data.csproj",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
-              "RelativeDocumentMoniker": "ContactManager.Data\\ContactManager.Data.csproj",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj*",
-              "RelativeToolTip": "ContactManager.Data\\ContactManager.Data.csproj*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-25T08:58:54.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "OrderOptions.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\OrderOptions.cs",
+              "RelativeDocumentMoniker": "ContactManager.Data\\Models\\OrderOptions.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\OrderOptions.cs",
+              "RelativeToolTip": "ContactManager.Data\\Models\\OrderOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T17:41:08.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaginationOptions.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\PaginationOptions.cs",
+              "RelativeDocumentMoniker": "ContactManager.Data\\Models\\PaginationOptions.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\PaginationOptions.cs",
+              "RelativeToolTip": "ContactManager.Data\\Models\\PaginationOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T17:14:37.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilterOptions.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\FilterOptions.cs",
+              "RelativeDocumentMoniker": "ContactManager.Data\\Models\\FilterOptions.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\FilterOptions.cs",
+              "RelativeToolTip": "ContactManager.Data\\Models\\FilterOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T17:13:42.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetContactEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactEndpoint.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\GetContactEndpoint.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactEndpoint.cs",
+              "RelativeToolTip": "WebApplication1\\Endpoints\\GetContactEndpoint.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:52:50.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "ContactManager.Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\DataContext.cs",
+              "RelativeToolTip": "ContactManager.Data\\DataContext.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAmwGEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:58:27.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TableContactsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\TableContactsDTO.cs",
+              "RelativeDocumentMoniker": "ContactManager.Data\\Models\\TableContactsDTO.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\TableContactsDTO.cs",
+              "RelativeToolTip": "ContactManager.Data\\Models\\TableContactsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:14:46.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetContactsEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
+              "RelativeToolTip": "WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:55:49.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "ContactManager.Data\\Entities\\BaseEntity.cs",
@@ -193,72 +273,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetContactsEndpoint.cs",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
-              "RelativeToolTip": "WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAADwvx4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:55:49.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "ContactManager.Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\DataContext.cs",
-              "RelativeToolTip": "ContactManager.Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T08:58:27.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\Contact.cs",
-              "RelativeDocumentMoniker": "ContactManager.Data\\Models\\Contact.cs",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\Contact.cs",
-              "RelativeToolTip": "ContactManager.Data\\Models\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:50:30.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "UpdateContactEndpoint.cs",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\UpdateContactEndpoint.cs",
               "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.cs",
               "RelativeToolTip": "WebApplication1\\Endpoints\\UpdateContactEndpoint.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAAA2AAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAACgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T09:56:37.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\appsettings.json",
-              "RelativeToolTip": "WebApplication1\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-25T09:26:44.714Z",
+              "DocumentIndex": 6,
+              "Title": "ContactManager.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
+              "RelativeDocumentMoniker": "ContactManager.Data\\ContactManager.Data.csproj",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
+              "RelativeToolTip": "ContactManager.Data\\ContactManager.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-25T08:58:54.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "ContactManager.API.csproj",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\ContactManager.API.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\ContactManager.API.csproj",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\ContactManager.API.csproj",
+              "RelativeToolTip": "WebApplication1\\ContactManager.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-25T10:23:25.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteContactEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
+              "RelativeToolTip": "WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:51:25.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ErrorDetails.cs",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\ErrorDetails.cs",
               "RelativeDocumentMoniker": "ContactManager.Data\\Models\\ErrorDetails.cs",
@@ -272,71 +339,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UpdateContactEndpoint.RequestValidator.cs",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.RequestValidator.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\UpdateContactEndpoint.RequestValidator.cs",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.RequestValidator.cs",
-              "RelativeToolTip": "WebApplication1\\Endpoints\\UpdateContactEndpoint.RequestValidator.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:57:14.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CreateContactEndpoint.RequestValidator.cs",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.RequestValidator.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\CreateContactEndpoint.RequestValidator.cs",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.RequestValidator.cs",
-              "RelativeToolTip": "WebApplication1\\Endpoints\\CreateContactEndpoint.RequestValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:43:28.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateContactEndpoint.Request.cs",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.Request.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\CreateContactEndpoint.Request.cs",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.Request.cs",
-              "RelativeToolTip": "WebApplication1\\Endpoints\\CreateContactEndpoint.Request.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:43:12.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UpdateContactEndpoint.Request.cs",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.Request.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\UpdateContactEndpoint.Request.cs",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.Request.cs",
-              "RelativeToolTip": "WebApplication1\\Endpoints\\UpdateContactEndpoint.Request.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:56:54.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GetContactEndpoint.Request.cs",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactEndpoint.Request.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\GetContactEndpoint.Request.cs",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactEndpoint.Request.cs",
-              "RelativeToolTip": "WebApplication1\\Endpoints\\GetContactEndpoint.Request.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:53:31.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "GetContactEndpoint.RequestValidator.cs",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactEndpoint.RequestValidator.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\GetContactEndpoint.RequestValidator.cs",
@@ -349,72 +351,146 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "ContactManager.Data\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\Models\\Contact.cs",
+              "RelativeToolTip": "ContactManager.Data\\Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:50:30.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateContactEndpoint.RequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.RequestValidator.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\CreateContactEndpoint.RequestValidator.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.RequestValidator.cs",
+              "RelativeToolTip": "WebApplication1\\Endpoints\\CreateContactEndpoint.RequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:43:28.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
               "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAWwCMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T09:26:11.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "contacts.json",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\contacts.json",
               "RelativeDocumentMoniker": "WebApplication1\\contacts.json",
               "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\contacts.json",
               "RelativeToolTip": "WebApplication1\\contacts.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-06-25T14:56:59.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GetContactEndpoint.cs",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactEndpoint.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\GetContactEndpoint.cs",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactEndpoint.cs",
-              "RelativeToolTip": "WebApplication1\\Endpoints\\GetContactEndpoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:52:50.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 12,
               "Title": "CreateContactEndpoint.cs",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\CreateContactEndpoint.cs",
               "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.cs",
               "RelativeToolTip": "WebApplication1\\Endpoints\\CreateContactEndpoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T09:42:35.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DeleteContactEndpoint.cs",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
-              "RelativeToolTip": "WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-25T09:26:44.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:51:25.275Z",
+              "WhenOpened": "2024-06-25T09:27:08.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "UpdateContactEndpoint.Request.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.Request.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\UpdateContactEndpoint.Request.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.Request.cs",
+              "RelativeToolTip": "WebApplication1\\Endpoints\\UpdateContactEndpoint.Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:56:54.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateContactEndpoint.RequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.RequestValidator.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\UpdateContactEndpoint.RequestValidator.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.RequestValidator.cs",
+              "RelativeToolTip": "WebApplication1\\Endpoints\\UpdateContactEndpoint.RequestValidator.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:57:14.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateContactEndpoint.Request.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.Request.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\CreateContactEndpoint.Request.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.Request.cs",
+              "RelativeToolTip": "WebApplication1\\Endpoints\\CreateContactEndpoint.Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:43:12.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetContactEndpoint.Request.cs",
+              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactEndpoint.Request.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\GetContactEndpoint.Request.cs",
+              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\GetContactEndpoint.Request.cs",
+              "RelativeToolTip": "WebApplication1\\Endpoints\\GetContactEndpoint.Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:53:31.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "DeleteContactEndpoint.RequestValidator.cs",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\DeleteContactEndpoint.RequestValidator.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\DeleteContactEndpoint.RequestValidator.cs",
@@ -422,12 +498,11 @@
               "RelativeToolTip": "WebApplication1\\Endpoints\\DeleteContactEndpoint.RequestValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:54:04.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T09:54:04.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",
@@ -435,25 +510,11 @@
               "RelativeToolTip": "WebApplication1\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-25T10:19:14.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T10:19:14.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ContactManager.API",
-              "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\ContactManager.API.csproj",
-              "RelativeDocumentMoniker": "WebApplication1\\ContactManager.API.csproj",
-              "ToolTip": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\ContactManager.API.csproj",
-              "RelativeToolTip": "WebApplication1\\ContactManager.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-25T10:23:25.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "DeleteContactEndpoint.Request.cs",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\Endpoints\\DeleteContactEndpoint.Request.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\DeleteContactEndpoint.Request.cs",
@@ -461,12 +522,11 @@
               "RelativeToolTip": "WebApplication1\\Endpoints\\DeleteContactEndpoint.Request.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:51:56.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T09:51:56.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -479,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "DeleteContactEndpoint.cs",
               "DocumentMoniker": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.API\\Endpoints\\DeleteContactEndpoint.cs",
               "RelativeDocumentMoniker": "ContactManager.API\\Endpoints\\DeleteContactEndpoint.cs",
@@ -487,8 +547,7 @@
               "RelativeToolTip": "ContactManager.API\\Endpoints\\DeleteContactEndpoint.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:31:18.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T09:31:18.394Z"
             }
           ]
         }
