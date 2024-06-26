@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj": {}
+    "C:\\Task\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj": {
+    "C:\\Task\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
+        "projectUniqueName": "C:\\Task\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj",
         "projectName": "ContactManager.Data",
-        "projectPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
+        "projectPath": "C:\\Task\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj",
         "packagesPath": "C:\\Users\\thewa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\obj\\",
+        "outputPath": "C:\\Task\\contact-manager-services\\ContactManager.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
