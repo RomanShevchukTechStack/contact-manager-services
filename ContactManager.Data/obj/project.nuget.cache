@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lzTsCb+YN7UWxSZCKMZitpuk4mcb7IiyOtALqB8RjrfAW0CpqVkO21r6pkWOgMp5r1+TosPB8+o5S+vNeMgkTg==",
+  "dgSpecHash": "v7+eYE//ZSKV7jN++rGd5N9NkHJpE73d0fUF/kLHPyr7zlGkEUY9RNkZFbXK89CkYV4AyUC6kWsXUrg71PJ6pw==",
   "success": true,
   "projectFilePath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\thewa\\.nuget\\packages\\ardalis.result\\9.1.0\\ardalis.result.9.1.0.nupkg.sha512",
+    "C:\\Users\\thewa\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
     "C:\\Users\\thewa\\.nuget\\packages\\fastendpoints\\5.26.0\\fastendpoints.5.26.0.nupkg.sha512",
     "C:\\Users\\thewa\\.nuget\\packages\\fastendpoints.attributes\\5.26.0\\fastendpoints.attributes.5.26.0.nupkg.sha512",
     "C:\\Users\\thewa\\.nuget\\packages\\fastendpoints.messaging.core\\5.26.0\\fastendpoints.messaging.core.5.26.0.nupkg.sha512",
