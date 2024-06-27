@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager.API", "WebApplication1\ContactManager.API.csproj", "{35918350-97CE-4836-8980-09FE627FBCF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactManager.API", "WebApplication1\ContactManager.API.csproj", "{35918350-97CE-4836-8980-09FE627FBCF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager.Data", "ContactManager.Data\ContactManager.Data.csproj", "{4168000D-C499-450C-9902-7276C67973F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactManager.Data", "ContactManager.Data\ContactManager.Data.csproj", "{4168000D-C499-450C-9902-7276C67973F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConactManager.Tests", "ConactManager.Tests\ConactManager.Tests.csproj", "{58720B6F-3058-4375-872E-0FCA64FBFC3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4168000D-C499-450C-9902-7276C67973F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4168000D-C499-450C-9902-7276C67973F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4168000D-C499-450C-9902-7276C67973F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58720B6F-3058-4375-872E-0FCA64FBFC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58720B6F-3058-4375-872E-0FCA64FBFC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58720B6F-3058-4375-872E-0FCA64FBFC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58720B6F-3058-4375-872E-0FCA64FBFC3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
