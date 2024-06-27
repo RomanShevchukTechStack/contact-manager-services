@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Ardalis.Result/9.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Ardalis.Result.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Ardalis.Result.dll": {}
+        }
+      },
+      "Ardalis.Specification/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Ardalis.Specification.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Ardalis.Specification.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "FastEndpoints/5.26.0": {
         "type": "package",
         "dependencies": {
@@ -22,6 +44,23 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "FastEndpoints.ApiExplorer/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "FastEndpoints": "5.22.0",
+          "FastEndpoints.Reflection": "2.3.0"
+        },
+        "compile": {
+          "lib/net8.0/FastEndpoints.ApiExplorer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FastEndpoints.ApiExplorer.dll": {
+            "related": ".xml"
+          }
+        }
       },
       "FastEndpoints.Attributes/5.26.0": {
         "type": "package",
@@ -49,6 +88,39 @@
           }
         }
       },
+      "FastEndpoints.Reflection/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "FastEndpoints": "5.22.0"
+        },
+        "compile": {
+          "lib/net8.0/FastEndpoints.Reflection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FastEndpoints.Reflection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FastEndpoints.Security/5.26.0": {
+        "type": "package",
+        "dependencies": {
+          "FastEndpoints": "5.26.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.5"
+        },
+        "compile": {
+          "lib/net8.0/FastEndpoints.Security.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FastEndpoints.Security.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentValidation/11.9.2": {
         "type": "package",
         "compile": {
@@ -62,6 +134,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -71,6 +162,101 @@
         "buildMultiTargeting": {
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "7.1.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "7.1.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "7.1.2",
+          "Microsoft.IdentityModel.Tokens": "7.1.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Protocols.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Protocols.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols": "7.1.2",
+          "System.IdentityModel.Tokens.Jwt": "7.1.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "7.1.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.OpenApi/1.2.3": {
@@ -175,10 +361,29 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "System.IdentityModel.Tokens.Jwt/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "7.1.2",
+          "Microsoft.IdentityModel.Tokens": "7.1.2"
+        },
+        "compile": {
+          "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "ContactManager.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Ardalis.Result": "9.1.0",
+          "Ardalis.Specification": "8.0.0",
           "FastEndpoints": "5.26.0",
           "Newtonsoft.Json": "13.0.3"
         },
@@ -192,6 +397,46 @@
     }
   },
   "libraries": {
+    "Ardalis.Result/9.1.0": {
+      "sha512": "+gr5+vCUmFkmAyQgHQ2Ja0MdTVJW97L/M/6fgStDDhTB9DfS85ZZDo5WtI00bQUdy9/ccX5YRDKlWvw8En3WeA==",
+      "type": "package",
+      "path": "ardalis.result/9.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ardalis.result.9.1.0.nupkg.sha512",
+        "ardalis.result.nuspec",
+        "icon.png",
+        "lib/net6.0/Ardalis.Result.dll",
+        "lib/net7.0/Ardalis.Result.dll",
+        "lib/net8.0/Ardalis.Result.dll",
+        "lib/netstandard2.0/Ardalis.Result.dll"
+      ]
+    },
+    "Ardalis.Specification/8.0.0": {
+      "sha512": "1/YP932oZJtaDlm85rWfqvgOjALbk2+VDZaj36sM2TdsJMNkVqMbF5UzY6f7OfzA8eymv3hnCXIgYmEBEiUOhQ==",
+      "type": "package",
+      "path": "ardalis.specification/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ardalis.specification.8.0.0.nupkg.sha512",
+        "ardalis.specification.nuspec",
+        "icon.png",
+        "lib/net6.0/Ardalis.Specification.dll",
+        "lib/net6.0/Ardalis.Specification.pdb",
+        "lib/net6.0/Ardalis.Specification.xml",
+        "lib/net7.0/Ardalis.Specification.dll",
+        "lib/net7.0/Ardalis.Specification.pdb",
+        "lib/net7.0/Ardalis.Specification.xml",
+        "lib/net8.0/Ardalis.Specification.dll",
+        "lib/net8.0/Ardalis.Specification.pdb",
+        "lib/net8.0/Ardalis.Specification.xml",
+        "lib/netstandard2.0/Ardalis.Specification.dll",
+        "lib/netstandard2.0/Ardalis.Specification.pdb",
+        "lib/netstandard2.0/Ardalis.Specification.xml"
+      ]
+    },
     "FastEndpoints/5.26.0": {
       "sha512": "A0N4yCUMgM2zHI0KzoG+/IRR7QqWixrhP9BcNWX+9TxxDrw6dVq1KLpfcY1IWmj3rVB0obIx8fUg6wMG+nAg4g==",
       "type": "package",
@@ -209,6 +454,21 @@
         "lib/net7.0/FastEndpoints.xml",
         "lib/net8.0/FastEndpoints.dll",
         "lib/net8.0/FastEndpoints.xml"
+      ]
+    },
+    "FastEndpoints.ApiExplorer/2.3.0": {
+      "sha512": "46S8EFggX+RymjzVKzobrPE5TQLqcas3n0Q7tzJFQ6At2MX1p9wpJFsMFT+sy5cw1ss/2hLwpc5kle+1j8Nl/w==",
+      "type": "package",
+      "path": "fastendpoints.apiexplorer/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fastendpoints.apiexplorer.2.3.0.nupkg.sha512",
+        "fastendpoints.apiexplorer.nuspec",
+        "lib/net6.0/FastEndpoints.ApiExplorer.dll",
+        "lib/net6.0/FastEndpoints.ApiExplorer.xml",
+        "lib/net8.0/FastEndpoints.ApiExplorer.dll",
+        "lib/net8.0/FastEndpoints.ApiExplorer.xml"
       ]
     },
     "FastEndpoints.Attributes/5.26.0": {
@@ -239,6 +499,39 @@
         "lib/netstandard2.1/FastEndpoints.Messaging.Core.xml"
       ]
     },
+    "FastEndpoints.Reflection/2.3.0": {
+      "sha512": "KDEi/Y+kTmIbbKhyOdiZA3pN0e4iGkTJT5KawN8X3PZTJNqJhgJLhzT6dQBvkeVnRfmiWBqYMLBMqmXFAuZcTw==",
+      "type": "package",
+      "path": "fastendpoints.reflection/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fastendpoints.reflection.2.3.0.nupkg.sha512",
+        "fastendpoints.reflection.nuspec",
+        "lib/net6.0/FastEndpoints.Reflection.dll",
+        "lib/net6.0/FastEndpoints.Reflection.xml",
+        "lib/net8.0/FastEndpoints.Reflection.dll",
+        "lib/net8.0/FastEndpoints.Reflection.xml"
+      ]
+    },
+    "FastEndpoints.Security/5.26.0": {
+      "sha512": "kRiMk0sPXm3ttU/mWd7eUpw19sDrhr0ctSr9V1lccRkWQR+dvGHFN1bKBi80BxnN/AkkDCf/e1axXgdRl1wwaQ==",
+      "type": "package",
+      "path": "fastendpoints.security/5.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fastendpoints.security.5.26.0.nupkg.sha512",
+        "fastendpoints.security.nuspec",
+        "icon.png",
+        "lib/net6.0/FastEndpoints.Security.dll",
+        "lib/net6.0/FastEndpoints.Security.xml",
+        "lib/net7.0/FastEndpoints.Security.dll",
+        "lib/net7.0/FastEndpoints.Security.xml",
+        "lib/net8.0/FastEndpoints.Security.dll",
+        "lib/net8.0/FastEndpoints.Security.xml"
+      ]
+    },
     "FluentValidation/11.9.2": {
       "sha512": "XeHp9LvFvu1fsQ/NvDCymV02GOCB1nz7ZUhfpI3uMhCcHTkV1K5bMkv+Nc/kuNYyAsX5+5bcmUanIEMd5QN+Eg==",
       "type": "package",
@@ -262,6 +555,21 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.6": {
+      "sha512": "devoUZd8YqikCheBVYpIyvp9psM2Y2ZhOvq1zL2YSjIoq3FUQH8LpLkGak+8oAi/5DGqX8KWyLpZJSUXtOAVCw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.8.0.6.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -495,6 +803,144 @@
         "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
       ]
     },
+    "Microsoft.IdentityModel.Abstractions/7.1.2": {
+      "sha512": "33eTIA2uO/L9utJjZWbKsMSVsQf7F8vtd6q5mQX7ZJzNvCpci5fleD6AeANGlbbb7WX7XKxq9+Dkb5e3GNDrmQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.abstractions/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net461/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.xml",
+        "microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+        "microsoft.identitymodel.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/7.1.2": {
+      "sha512": "cloLGeZolXbCJhJBc5OC05uhrdhdPL6MWHuVUnkkUvPDeK7HkwThBaLZ1XjBQVk9YhxXE2OvHXnKi0PLleXxDg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.jsonwebtokens/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net462/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net462/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/7.1.2": {
+      "sha512": "YCxBt2EeJP8fcXk9desChkWI+0vFqFLvBwrz5hBMsoh0KJE6BC66DnzkdzkJNqMltLromc52dkdT206jJ38cTw==",
+      "type": "package",
+      "path": "microsoft.identitymodel.logging/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.Logging.dll",
+        "lib/net461/Microsoft.IdentityModel.Logging.xml",
+        "lib/net462/Microsoft.IdentityModel.Logging.dll",
+        "lib/net462/Microsoft.IdentityModel.Logging.xml",
+        "lib/net472/Microsoft.IdentityModel.Logging.dll",
+        "lib/net472/Microsoft.IdentityModel.Logging.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Logging.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Logging.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.xml",
+        "microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
+        "microsoft.identitymodel.logging.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Protocols/7.1.2": {
+      "sha512": "SydLwMRFx6EHPWJ+N6+MVaoArN1Htt92b935O3RUWPY1yUF63zEjvd3lBu79eWdZUwedP8TN2I5V9T3nackvIQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.protocols/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net461/Microsoft.IdentityModel.Protocols.xml",
+        "lib/net462/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net462/Microsoft.IdentityModel.Protocols.xml",
+        "lib/net472/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net472/Microsoft.IdentityModel.Protocols.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Protocols.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Protocols.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.xml",
+        "microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+        "microsoft.identitymodel.protocols.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/7.1.2": {
+      "sha512": "6lHQoLXhnMQ42mGrfDkzbIOR3rzKM1W1tgTeMPLgLCqwwGw0d96xFi/UiX/fYsu7d6cD5MJiL3+4HuI8VU+sVQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.protocols.openidconnect/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net462/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net462/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net472/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net472/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+        "microsoft.identitymodel.protocols.openidconnect.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Tokens/7.1.2": {
+      "sha512": "oICJMqr3aNEDZOwnH5SK49bR6Z4aX0zEAnOLuhloumOSuqnNq+GWBdQyrgILnlcT5xj09xKCP/7Y7gJYB+ls/g==",
+      "type": "package",
+      "path": "microsoft.identitymodel.tokens/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net461/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net462/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net462/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net472/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net472/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Tokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
+        "microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
+        "microsoft.identitymodel.tokens.nuspec"
+      ]
+    },
     "Microsoft.OpenApi/1.2.3": {
       "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "type": "package",
@@ -646,6 +1092,29 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "System.IdentityModel.Tokens.Jwt/7.1.2": {
+      "sha512": "Thhbe1peAmtSBFaV/ohtykXiZSOkx59Da44hvtWfIMFofDA3M3LaVyjstACf2rKGn4dEDR2cUpRAZ0Xs/zB+7Q==",
+      "type": "package",
+      "path": "system.identitymodel.tokens.jwt/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net461/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net462/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net462/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net472/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net472/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net6.0/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net8.0/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
+        "system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    },
     "ContactManager.Data/1.0.0": {
       "type": "project",
       "path": "../ContactManager.Data/ContactManager.Data.csproj",
@@ -655,7 +1124,11 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "ContactManager.Data >= 1.0.0",
+      "FastEndpoints.ApiExplorer >= 2.3.0",
+      "FastEndpoints.Attributes >= 5.26.0",
+      "FastEndpoints.Security >= 5.26.0",
       "FluentValidation >= 11.9.2",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.6",
       "Serilog >= 4.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -667,11 +1140,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\ContactManager.API.csproj",
+      "projectUniqueName": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\WebApplication1\\ContactManager.API.csproj",
       "projectName": "ContactManager.API",
-      "projectPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\ContactManager.API.csproj",
+      "projectPath": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\WebApplication1\\ContactManager.API.csproj",
       "packagesPath": "C:\\Users\\thewa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -694,8 +1167,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj": {
-              "projectPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj"
+            "C:\\Users\\thewa\\Desktop\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj": {
+              "projectPath": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj"
             }
           }
         }
@@ -715,9 +1188,25 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "FastEndpoints.ApiExplorer": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "FastEndpoints.Attributes": {
+            "target": "Package",
+            "version": "[5.26.0, )"
+          },
+          "FastEndpoints.Security": {
+            "target": "Package",
+            "version": "[5.26.0, )"
+          },
           "FluentValidation": {
             "target": "Package",
             "version": "[11.9.2, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[8.0.6, )"
           },
           "Serilog": {
             "target": "Package",

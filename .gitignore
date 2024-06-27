@@ -1,0 +1,10 @@
+# build files
+[Bb]in/
+[Oo]bj/
+packages/
+dist/
+out/
+
+#VS folder
+.vs/
+vq.ReportBuilder/src/vq.ReportBuilder.Api/Logs/

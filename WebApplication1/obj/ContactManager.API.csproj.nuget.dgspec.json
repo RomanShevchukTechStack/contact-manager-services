@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\ContactManager.API.csproj": {}
+    "C:\\Users\\thewa\\Desktop\\contact-manager-services\\WebApplication1\\ContactManager.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj": {
+    "C:\\Users\\thewa\\Desktop\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
+        "projectUniqueName": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj",
         "projectName": "ContactManager.Data",
-        "projectPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
+        "projectPath": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj",
         "packagesPath": "C:\\Users\\thewa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\obj\\",
+        "outputPath": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\ContactManager.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "FastEndpoints": {
               "target": "Package",
               "version": "[5.26.0, )"
@@ -80,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\ContactManager.API.csproj": {
+    "C:\\Users\\thewa\\Desktop\\contact-manager-services\\WebApplication1\\ContactManager.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\ContactManager.API.csproj",
+        "projectUniqueName": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\WebApplication1\\ContactManager.API.csproj",
         "projectName": "ContactManager.API",
-        "projectPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\ContactManager.API.csproj",
+        "projectPath": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\WebApplication1\\ContactManager.API.csproj",
         "packagesPath": "C:\\Users\\thewa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -110,8 +118,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj": {
-                "projectPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj"
+              "C:\\Users\\thewa\\Desktop\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj": {
+                "projectPath": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj"
               }
             }
           }
@@ -131,9 +139,25 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FastEndpoints.ApiExplorer": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "FastEndpoints.Attributes": {
+              "target": "Package",
+              "version": "[5.26.0, )"
+            },
+            "FastEndpoints.Security": {
+              "target": "Package",
+              "version": "[5.26.0, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.9.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Serilog": {
               "target": "Package",

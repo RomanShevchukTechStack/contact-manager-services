@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Ardalis.Result/9.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Ardalis.Result.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Ardalis.Result.dll": {}
+        }
+      },
+      "Ardalis.Specification/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Ardalis.Specification.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Ardalis.Specification.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "FastEndpoints/5.26.0": {
         "type": "package",
         "dependencies": {
@@ -78,6 +100,46 @@
     }
   },
   "libraries": {
+    "Ardalis.Result/9.1.0": {
+      "sha512": "+gr5+vCUmFkmAyQgHQ2Ja0MdTVJW97L/M/6fgStDDhTB9DfS85ZZDo5WtI00bQUdy9/ccX5YRDKlWvw8En3WeA==",
+      "type": "package",
+      "path": "ardalis.result/9.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ardalis.result.9.1.0.nupkg.sha512",
+        "ardalis.result.nuspec",
+        "icon.png",
+        "lib/net6.0/Ardalis.Result.dll",
+        "lib/net7.0/Ardalis.Result.dll",
+        "lib/net8.0/Ardalis.Result.dll",
+        "lib/netstandard2.0/Ardalis.Result.dll"
+      ]
+    },
+    "Ardalis.Specification/8.0.0": {
+      "sha512": "1/YP932oZJtaDlm85rWfqvgOjALbk2+VDZaj36sM2TdsJMNkVqMbF5UzY6f7OfzA8eymv3hnCXIgYmEBEiUOhQ==",
+      "type": "package",
+      "path": "ardalis.specification/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ardalis.specification.8.0.0.nupkg.sha512",
+        "ardalis.specification.nuspec",
+        "icon.png",
+        "lib/net6.0/Ardalis.Specification.dll",
+        "lib/net6.0/Ardalis.Specification.pdb",
+        "lib/net6.0/Ardalis.Specification.xml",
+        "lib/net7.0/Ardalis.Specification.dll",
+        "lib/net7.0/Ardalis.Specification.pdb",
+        "lib/net7.0/Ardalis.Specification.xml",
+        "lib/net8.0/Ardalis.Specification.dll",
+        "lib/net8.0/Ardalis.Specification.pdb",
+        "lib/net8.0/Ardalis.Specification.xml",
+        "lib/netstandard2.0/Ardalis.Specification.dll",
+        "lib/netstandard2.0/Ardalis.Specification.pdb",
+        "lib/netstandard2.0/Ardalis.Specification.xml"
+      ]
+    },
     "FastEndpoints/5.26.0": {
       "sha512": "A0N4yCUMgM2zHI0KzoG+/IRR7QqWixrhP9BcNWX+9TxxDrw6dVq1KLpfcY1IWmj3rVB0obIx8fUg6wMG+nAg4g==",
       "type": "package",
@@ -183,6 +245,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Ardalis.Result >= 9.1.0",
+      "Ardalis.Specification >= 8.0.0",
       "FastEndpoints >= 5.26.0",
       "Newtonsoft.Json >= 13.0.3"
     ]
@@ -194,11 +258,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
+      "projectUniqueName": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj",
       "projectName": "ContactManager.Data",
-      "projectPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\ContactManager.Data.csproj",
+      "projectPath": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj",
       "packagesPath": "C:\\Users\\thewa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thewa\\Desktop\\contact-maneger-services\\ContactManager.Data\\obj\\",
+      "outputPath": "C:\\Users\\thewa\\Desktop\\contact-manager-services\\ContactManager.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -238,6 +302,14 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Ardalis.Result": {
+            "target": "Package",
+            "version": "[9.1.0, )"
+          },
+          "Ardalis.Specification": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "FastEndpoints": {
             "target": "Package",
             "version": "[5.26.0, )"
