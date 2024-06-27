@@ -3,6 +3,7 @@ using ContactManager.Data.Models;
 using FastEndpoints;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 using System.ComponentModel.DataAnnotations;
 using System.Threading;
 using System.Threading.Tasks;
@@ -30,6 +31,7 @@ namespace ContactManager.Endpoints
       var contactRes = _context.GetById(req.Id);
       if (!contactRes.IsSuccess)
       {
+        Log.Logger.Error($"Error: {contactRes.Errors}");
         await SendNotFoundAsync(ct);
         return;
       }

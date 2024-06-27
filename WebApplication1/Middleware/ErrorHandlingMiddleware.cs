@@ -23,7 +23,7 @@ namespace ContactManager.Middleware
             await context.Response.WriteAsync(new ErrorDetails()
             {
               StatusCode = context.Response.StatusCode,
-              Message = "Internal Server Error."
+              Message = "Something went wrong: Please try again later"
             }.ToString());
           }
         });

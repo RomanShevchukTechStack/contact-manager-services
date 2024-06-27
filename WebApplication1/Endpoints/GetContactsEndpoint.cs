@@ -2,6 +2,7 @@
 using ContactManager.Data.Models;
 using FastEndpoints;
 using Microsoft.AspNetCore.Http.Extensions;
+using Serilog;
 
 
 namespace ContactManager.Endpoints
@@ -28,13 +29,19 @@ namespace ContactManager.Endpoints
       var filterOptions = new FilterOptions(queryParams.SearchValue);
       var orderOptions = new OrderOptions(queryParams.OrderBy, queryParams.OrderDirection);
 
-      var contacts = _repository.GetAll(filterOptions, paginationOptions, orderOptions);
+      var contactsRes = _repository.GetAll(filterOptions, paginationOptions, orderOptions);
+
+      if (!contactsRes.IsSuccess)
+      {
+        Log.Logger.Error($"Error: {contactsRes.Errors}");
+        await SendErrorsAsync();
+      }
 
       var result = new TableContactsDTO(
-        contacts.Value.Count(),
+        contactsRes.Value.Count(),
         queryParams.PageValue,
-        (int)Math.Ceiling((double)contacts.Value.Count() / queryParams.pageSize),
-        contacts.Value);
+        (int)Math.Ceiling((double)contactsRes.Value.Count() / queryParams.pageSize),
+        contactsRes.Value);
 
       await SendAsync(result, StatusCodes.Status200OK, ct);
     }

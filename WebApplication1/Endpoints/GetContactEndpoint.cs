@@ -1,6 +1,7 @@
 ﻿using ContactManager.Data;
 using ContactManager.Data.Models;
 using FastEndpoints;
+using Serilog;
 
 namespace ContactManager.Endpoints
 {
@@ -24,6 +25,7 @@ namespace ContactManager.Endpoints
       var contactRes = _repository.GetById(req.Id);
       if (!contactRes.IsSuccess)
       {
+        Log.Logger.Error($"Error: {contactRes.Errors}");
         await SendNotFoundAsync(ct);
         return;
       }

@@ -1,7 +1,13 @@
 using ContactManager.Endpoints;
 using ContactManager.Validators;
 using FastEndpoints;
+using FastEndpoints.ApiExplorer;
+using FastEndpoints.Security;
 using FluentValidation;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System;
+using System.Text;
 var CorsAllowAllPolicy = "_corsAllowAllPolicy";
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +16,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddFastEndpoints();
 builder.Services.AddScoped<IValidator<CreateContactRequest>, CreateContactRequestValidator>();
+
+//if (!builder.Environment.IsDevelopment())
+//{
+//  builder.Services
+//    .AddAuthenticationJwtBearer(s => s.SigningKey = "The secret used to sign tokens") //add this
+//    .AddAuthorization()
+//    .AddFastEndpoints()
+//    .AddFastEndpointsApiExplorer() ;
+//}
 
 builder.Services.AddCors(options =>
 {
@@ -24,16 +39,14 @@ builder.Services.AddCors(options =>
 });
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
   app.UseSwagger();
   app.UseSwaggerUI();
+  app.UseAuthorization();
 }
 
 app.UseHttpsRedirection();
-
-app.UseAuthorization();
 
 app.MapControllers();
 

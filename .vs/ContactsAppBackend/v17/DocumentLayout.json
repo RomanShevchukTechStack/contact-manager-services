@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Task\\contact-manager-services\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\task\\contact-manager-services\\webapplication1\\endpoints\\updatecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\updatecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\task\\contact-manager-services\\webapplication1\\endpoints\\getcontactsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\getcontactsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\task\\contact-manager-services\\webapplication1\\endpoints\\createcontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\createcontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\task\\contact-manager-services\\webapplication1\\endpoints\\deletecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\deletecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\task\\contact-manager-services\\webapplication1\\endpoints\\getcontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\getcontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\task\\contact-manager-services\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\task\\contact-manager-services\\webapplication1\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4043E05-CF04-46AF-A2E8-F705FB32EF9B}|ContactManager.Tests\\ContactManager.Tests.csproj|c:\\task\\contact-manager-services\\contactmanager.tests\\repositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4043E05-CF04-46AF-A2E8-F705FB32EF9B}|ContactManager.Tests\\ContactManager.Tests.csproj|solutionrelative:contactmanager.tests\\repositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,18 +59,6 @@
       "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\common\\helpers\\queryparamsextractorcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\task\\contact-manager-services\\webapplication1\\endpoints\\getcontactsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\getcontactsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\task\\contact-manager-services\\webapplication1\\endpoints\\updatecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\updatecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|c:\\task\\contact-manager-services\\webapplication1\\endpoints\\deletecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35918350-97CE-4836-8980-09FE627FBCF0}|WebApplication1\\ContactManager.API.csproj|solutionrelative:webapplication1\\endpoints\\deletecontactendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|c:\\task\\contact-manager-services\\contactmanager.data\\contactmanager.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4168000D-C499-450C-9902-7276C67973F3}|ContactManager.Data\\ContactManager.Data.csproj|solutionrelative:contactmanager.data\\contactmanager.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -58,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -99,19 +115,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TableContactsDTO.cs",
-              "DocumentMoniker": "C:\\Task\\contact-manager-services\\ContactManager.Data\\Models\\TableContactsDTO.cs",
-              "RelativeDocumentMoniker": "ContactManager.Data\\Models\\TableContactsDTO.cs",
-              "ToolTip": "C:\\Task\\contact-manager-services\\ContactManager.Data\\Models\\TableContactsDTO.cs",
-              "RelativeToolTip": "ContactManager.Data\\Models\\TableContactsDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CreateContactEndpoint.cs",
+              "DocumentMoniker": "C:\\Task\\contact-manager-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\CreateContactEndpoint.cs",
+              "ToolTip": "C:\\Task\\contact-manager-services\\WebApplication1\\Endpoints\\CreateContactEndpoint.cs",
+              "RelativeToolTip": "WebApplication1\\Endpoints\\CreateContactEndpoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T19:24:50.849Z",
+              "WhenOpened": "2024-06-27T07:56:13.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "GetContactEndpoint.cs",
+              "DocumentMoniker": "C:\\Task\\contact-manager-services\\WebApplication1\\Endpoints\\GetContactEndpoint.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\GetContactEndpoint.cs",
+              "ToolTip": "C:\\Task\\contact-manager-services\\WebApplication1\\Endpoints\\GetContactEndpoint.cs",
+              "RelativeToolTip": "WebApplication1\\Endpoints\\GetContactEndpoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:56:05.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Task\\contact-manager-services\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Task\\contact-manager-services\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:48:44.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PaginationOptions.cs",
               "DocumentMoniker": "C:\\Task\\contact-manager-services\\ContactManager.Data\\Models\\PaginationOptions.cs",
               "RelativeDocumentMoniker": "ContactManager.Data\\Models\\PaginationOptions.cs",
@@ -124,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "OrderOptions.cs",
               "DocumentMoniker": "C:\\Task\\contact-manager-services\\ContactManager.Data\\Models\\OrderOptions.cs",
               "RelativeDocumentMoniker": "ContactManager.Data\\Models\\OrderOptions.cs",
@@ -137,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "FilterOptions.cs",
               "DocumentMoniker": "C:\\Task\\contact-manager-services\\ContactManager.Data\\Models\\FilterOptions.cs",
               "RelativeDocumentMoniker": "ContactManager.Data\\Models\\FilterOptions.cs",
@@ -150,20 +192,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "RepositoryTests.cs",
               "DocumentMoniker": "C:\\Task\\contact-manager-services\\ContactManager.Tests\\RepositoryTests.cs",
               "RelativeDocumentMoniker": "ContactManager.Tests\\RepositoryTests.cs",
               "ToolTip": "C:\\Task\\contact-manager-services\\ContactManager.Tests\\RepositoryTests.cs",
               "RelativeToolTip": "ContactManager.Tests\\RepositoryTests.cs",
-              "ViewState": "AQIAAKEAAAAAAAAAAAAuwLoAAAAFAAAA",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAqwLoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T19:20:56.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "QueryParamsExtractorcs.cs",
               "DocumentMoniker": "C:\\Task\\contact-manager-services\\WebApplication1\\Common\\Helpers\\QueryParamsExtractorcs.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Common\\Helpers\\QueryParamsExtractorcs.cs",
@@ -176,59 +218,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "UpdateContactEndpoint.cs",
               "DocumentMoniker": "C:\\Task\\contact-manager-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\UpdateContactEndpoint.cs",
               "ToolTip": "C:\\Task\\contact-manager-services\\WebApplication1\\Endpoints\\UpdateContactEndpoint.cs",
               "RelativeToolTip": "WebApplication1\\Endpoints\\UpdateContactEndpoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T19:19:32.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "GetContactsEndpoint.cs",
               "DocumentMoniker": "C:\\Task\\contact-manager-services\\WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
               "ToolTip": "C:\\Task\\contact-manager-services\\WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
               "RelativeToolTip": "WebApplication1\\Endpoints\\GetContactsEndpoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T19:19:29.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "DeleteContactEndpoint.cs",
               "DocumentMoniker": "C:\\Task\\contact-manager-services\\WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
               "ToolTip": "C:\\Task\\contact-manager-services\\WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
               "RelativeToolTip": "WebApplication1\\Endpoints\\DeleteContactEndpoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T19:19:28.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Task\\contact-manager-services\\WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Task\\contact-manager-services\\WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "WebApplication1\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:04:48.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TableContactsDTO.cs",
+              "DocumentMoniker": "C:\\Task\\contact-manager-services\\ContactManager.Data\\Models\\TableContactsDTO.cs",
+              "RelativeDocumentMoniker": "ContactManager.Data\\Models\\TableContactsDTO.cs",
+              "ToolTip": "C:\\Task\\contact-manager-services\\ContactManager.Data\\Models\\TableContactsDTO.cs",
+              "RelativeToolTip": "ContactManager.Data\\Models\\TableContactsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T19:24:50.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Task\\contact-manager-services\\ContactManager.Data\\DataContext.cs",
               "RelativeDocumentMoniker": "ContactManager.Data\\DataContext.cs",
               "ToolTip": "C:\\Task\\contact-manager-services\\ContactManager.Data\\DataContext.cs",
               "RelativeToolTip": "ContactManager.Data\\DataContext.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAABQwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T08:58:27.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "ContactManager.Data.csproj",
               "DocumentMoniker": "C:\\Task\\contact-manager-services\\ContactManager.Data\\ContactManager.Data.csproj",
               "RelativeDocumentMoniker": "ContactManager.Data\\ContactManager.Data.csproj",
@@ -241,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Task\\contact-manager-services\\ContactManager.Data\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "ContactManager.Data\\Models\\Contact.cs",
@@ -249,7 +317,8 @@
               "RelativeToolTip": "ContactManager.Data\\Models\\Contact.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:50:30.208Z"
+              "WhenOpened": "2024-06-25T09:50:30.208Z",
+              "EditorCaption": ""
             }
           ]
         }
