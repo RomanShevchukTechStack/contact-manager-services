@@ -1,0 +1,139 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ContactManager.Data/1.0.0": {
+        "dependencies": {
+          "Ardalis.Result": "9.1.0",
+          "Ardalis.Specification": "8.0.0",
+          "FastEndpoints": "5.26.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "ContactManager.Data.dll": {}
+        }
+      },
+      "Ardalis.Result/9.1.0": {
+        "runtime": {
+          "lib/net8.0/Ardalis.Result.dll": {
+            "assemblyVersion": "9.1.0.0",
+            "fileVersion": "9.1.0.0"
+          }
+        }
+      },
+      "Ardalis.Specification/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Ardalis.Specification.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FastEndpoints/5.26.0": {
+        "dependencies": {
+          "FastEndpoints.Attributes": "5.26.0",
+          "FastEndpoints.Messaging.Core": "5.26.0",
+          "FluentValidation": "11.9.1"
+        },
+        "runtime": {
+          "lib/net8.0/FastEndpoints.dll": {
+            "assemblyVersion": "5.26.0.0",
+            "fileVersion": "5.26.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Attributes/5.26.0": {
+        "runtime": {
+          "lib/netstandard2.0/FastEndpoints.Attributes.dll": {
+            "assemblyVersion": "5.26.0.0",
+            "fileVersion": "5.26.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Messaging.Core/5.26.0": {
+        "runtime": {
+          "lib/netstandard2.1/FastEndpoints.Messaging.Core.dll": {
+            "assemblyVersion": "5.26.0.0",
+            "fileVersion": "5.26.0.0"
+          }
+        }
+      },
+      "FluentValidation/11.9.1": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.1.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContactManager.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ardalis.Result/9.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+gr5+vCUmFkmAyQgHQ2Ja0MdTVJW97L/M/6fgStDDhTB9DfS85ZZDo5WtI00bQUdy9/ccX5YRDKlWvw8En3WeA==",
+      "path": "ardalis.result/9.1.0",
+      "hashPath": "ardalis.result.9.1.0.nupkg.sha512"
+    },
+    "Ardalis.Specification/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1/YP932oZJtaDlm85rWfqvgOjALbk2+VDZaj36sM2TdsJMNkVqMbF5UzY6f7OfzA8eymv3hnCXIgYmEBEiUOhQ==",
+      "path": "ardalis.specification/8.0.0",
+      "hashPath": "ardalis.specification.8.0.0.nupkg.sha512"
+    },
+    "FastEndpoints/5.26.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A0N4yCUMgM2zHI0KzoG+/IRR7QqWixrhP9BcNWX+9TxxDrw6dVq1KLpfcY1IWmj3rVB0obIx8fUg6wMG+nAg4g==",
+      "path": "fastendpoints/5.26.0",
+      "hashPath": "fastendpoints.5.26.0.nupkg.sha512"
+    },
+    "FastEndpoints.Attributes/5.26.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ucoxzTG0vmuCSg10U3isDYxLjN0Maqp4eHw/QQgj8tU1iByj4vp5TeZCFVutXu4J/8Tri0B4Rd+vgmAX8VC0A==",
+      "path": "fastendpoints.attributes/5.26.0",
+      "hashPath": "fastendpoints.attributes.5.26.0.nupkg.sha512"
+    },
+    "FastEndpoints.Messaging.Core/5.26.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Ij4oRm3bWqpBp3WwoGa+MAuaBe6MXv7lliY2bO1+zf4NuvxjekWw2vETWMl7e/YJhDWLkOox4Fo+l/0HHLC2w==",
+      "path": "fastendpoints.messaging.core/5.26.0",
+      "hashPath": "fastendpoints.messaging.core.5.26.0.nupkg.sha512"
+    },
+    "FluentValidation/11.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C+PqISSMdlOZZJx0Hx25atW32tv4vbpsaiQB+PLjK+ZGLzOFuHl1fUJ3Lny77mIZ31ZtYtNG0JgUjxa3wwLsWg==",
+      "path": "fluentvalidation/11.9.1",
+      "hashPath": "fluentvalidation.11.9.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    }
+  }
+}

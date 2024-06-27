@@ -1,0 +1,13 @@
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\bin\Debug\net8.0\ContactManager.Data.deps.json
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\bin\Debug\net8.0\ContactManager.Data.dll
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\bin\Debug\net8.0\ContactManager.Data.pdb
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\obj\Debug\net8.0\ContactManager.Data.csproj.AssemblyReference.cache
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\obj\Debug\net8.0\ContactManager.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\obj\Debug\net8.0\ContactManager.Data.AssemblyInfoInputs.cache
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\obj\Debug\net8.0\ContactManager.Data.AssemblyInfo.cs
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\obj\Debug\net8.0\ContactManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\obj\Debug\net8.0\ContactManager.Data.sourcelink.json
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\obj\Debug\net8.0\ContactManager.Data.dll
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\obj\Debug\net8.0\refint\ContactManager.Data.dll
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\obj\Debug\net8.0\ContactManager.Data.pdb
+C:\Users\thewa\Desktop\contact-maneger-services\ContactManager.Data\obj\Debug\net8.0\ref\ContactManager.Data.dll
